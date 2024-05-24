@@ -7,7 +7,7 @@ index df388104b4c..842eb1cf837 100644
    SCOPED_TRACE("// cleanup");
  
 +  // give the test connection some time to close
-+  std::this_thread::sleep_for(1500000ms);
++  std::this_thread::sleep_for(2100000ms);
 +
    // close all connections that are currently in the pool to get a stable
    // baseline.
